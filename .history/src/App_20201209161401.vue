@@ -2,7 +2,7 @@
   <div id="app">
     <div class="app-header">
       <Header/>
-      <Banner class="banner"/> 
+      <!-- <Banner class="banner"/>  -->
     </div>
     
   </div>
