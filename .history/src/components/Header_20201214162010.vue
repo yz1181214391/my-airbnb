@@ -169,13 +169,4 @@ input{
   display: flex;
   align-items: center;
 }
-.search-btn{
-  width: 69px;
-  height: 49px;
-  background-color: #FF5A5F;
-  line-height: 49px;
-  border-radius: 4px;
-  color: #fff;
-  margin-left: 18px;
-}
 </style>

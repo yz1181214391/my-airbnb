@@ -50,7 +50,7 @@
                 </el-input>
               </div>
               <div style="width:116px;height:100%;text-align: center;">
-                <div class="search-btn">搜索</div>
+                <button>搜索</button>
               </div>
             </div>
           <!-- </div> -->
@@ -168,14 +168,5 @@ input{
   background-color: #fff;
   display: flex;
   align-items: center;
-}
-.search-btn{
-  width: 69px;
-  height: 49px;
-  background-color: #FF5A5F;
-  line-height: 49px;
-  border-radius: 4px;
-  color: #fff;
-  margin-left: 18px;
 }
 </style>

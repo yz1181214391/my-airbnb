@@ -176,6 +176,5 @@ input{
   line-height: 49px;
   border-radius: 4px;
   color: #fff;
-  margin-left: 18px;
 }
 </style>

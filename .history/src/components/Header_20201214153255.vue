@@ -37,20 +37,20 @@
               <div style="width:100px;height:100%; text-align: center;">房源</div>
               <div style="width:570px;height:100%;border-right: 1px solid #cccccc;border-left: 1px solid #cccccc;">
                 <el-input
-                  placeholder="输入目的地、城市或景点"
-                  prefix-icon="el-icon-location"
+                  placeholder="请输入内容"
+                  prefix-icon="el-icon-search"
                   v-model="input21">
                 </el-input>
               </div>
-              <div style="width:270px;height:100%;border-right: 1px solid #cccccc;">
+              <div style="width:270px;height:100%;">
                 <el-input
-                  placeholder="请选择入住日期"
+                  placeholder="请选择日期"
                   suffix-icon="el-icon-date"
                   v-model="input2">
                 </el-input>
               </div>
               <div style="width:116px;height:100%;text-align: center;">
-                <div class="search-btn">搜索</div>
+                <button>搜索</button>
               </div>
             </div>
           <!-- </div> -->
@@ -168,14 +168,5 @@ input{
   background-color: #fff;
   display: flex;
   align-items: center;
-}
-.search-btn{
-  width: 69px;
-  height: 49px;
-  background-color: #FF5A5F;
-  line-height: 49px;
-  border-radius: 4px;
-  color: #fff;
-  margin-left: 18px;
 }
 </style>
